@@ -20,7 +20,7 @@ const app = Vue.createApp({
     beforeMount(){
         let lastSettings = localStorage.getItem("lastSettings");
         if (lastSettings === null){
-            this.DPs.push(this.getDefaultDP());
+            this.DPs.push(new DP(DEFAULT_DP_DATA));
         }
         else{
             JSON.parse(lastSettings).forEach((data) => {
