@@ -1,5 +1,5 @@
 <h1>
-    <a href="#">
+    <a href="https://itzterra.github.io/DPLab/" target="_blank">
         Double Pendulum Lab 
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 -8 24 24">
         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -28,6 +28,7 @@ The input constraints are lenient, so if you feed the simulator crazy numbers, d
 - Customizable Canvas background color
 - Fullscreen mode
 - Capture the moment with *Right-Click -> Save image as...*
+- 
 
 ### Tips & Tricks
 - Change all colors of a DP at once using the square on the left of a dropdown-header 
@@ -37,7 +38,7 @@ The input constraints are lenient, so if you feed the simulator crazy numbers, d
 - You can use optimized single pendulum math by setting all *Mass*, *Bob radius*, *Rod width* and *Trail width* of Part 2 to zero.
 
 ### Made with:
-- <a href="https://vuejs.org/"><strong style="color: #42b883">Vue 3</strong></a> reactivity
-- <a href="https://p5js.org/"><strong style="color: #ed225d">p5.js</strong></a> rendering
-- <a href="https://getbootstrap.com/"><strong style="color: #7734fb">Bootstrap 5</strong></a> styles
-- <a href="https://seballot.github.io/spectrum/"><strong style="color: #e83072">Spectrum</strong></a> color pickers
+- <a href="https://vuejs.org/" target="_blank"><strong style="color: #42b883">Vue 3</strong></a> reactivity
+- <a href="https://p5js.org/" target="_blank"><strong style="color: #ed225d">p5.js</strong></a> rendering
+- <a href="https://getbootstrap.com/" target="_blank"><strong style="color: #7734fb">Bootstrap 5</strong></a> styles
+- <a href="https://seballot.github.io/spectrum/" target="_blank"><strong style="color: #e83072">Spectrum</strong></a> color pickers
