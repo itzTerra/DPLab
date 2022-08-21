@@ -1,0 +1,5045 @@
+{
+    "Circle": [
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgb(255, 255, 255)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 93.45,
+            "velocity": 11.3,
+            "radius": 20,
+            "color": "rgb(45, 0, 255)",
+            "lineWeight": 0,
+            "lineColor": "rgb(255, 255, 255)",
+            "trailWeight": 2,
+            "trailColor": "rgb(0, 90, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 0.1,
+            "mass": 0,
+            "angle": 199.42,
+            "velocity": -24089.87,
+            "radius": 0,
+            "color": "rgb(255, 255, 255)",
+            "lineWeight": 0,
+            "lineColor": "rgb(255, 255, 255)",
+            "trailWeight": 1,
+            "trailColor": "rgb(0, 255, 240)",
+            "trailLen": 100
+          },
+          "hidden": false
+        }
+    ],
+    "Vortex": [
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.06666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.13333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.2,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.26666666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.3333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.39999999999999997,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.4666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.5333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.6,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.6666666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.7333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.7999999999999999,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.8666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 0.9333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.0666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.1333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.2,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.2666666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.3333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.4,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.4666666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.5333333333333332,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.5999999999999999,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.6666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.7333333333333334,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.8,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.8666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 1.9333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.066666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.1333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.2,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.266666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.3333333333333335,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.4000000000000004,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.466666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.5333333333333337,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.6,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.7333333333333334,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.8000000000000003,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.8666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 2.9333333333333336,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.066666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.1333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.2,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.266666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.3333333333333335,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.4000000000000004,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.466666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.5333333333333337,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.6,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.7333333333333334,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.8000000000000003,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.8666666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 3.9333333333333336,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.066666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.133333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.199999999999999,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.266666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.3999999999999995,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.466666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.533333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.6,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.666666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.733333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.8,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.866666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 4.933333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.066666666666666,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.133333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.199999999999999,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.266666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.333333333333333,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.3999999999999995,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        },
+        {
+          "simSpeed": 0.8,
+          "g": -10,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": 420,
+            "radius": 0,
+            "color": "rgba(100, 0, 0, 0.75)"
+          },
+          "bob1": {
+            "length": 5.466666666666667,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 2,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgba(150, 0, 0, 0.75)",
+            "lineWeight": 0,
+            "lineColor": "rgba(150, 0, 0, 0.75)",
+            "trailWeight": 0,
+            "trailColor": "rgba(150, 0, 0, 0.75)",
+            "trailLen": 100
+          },
+          "hidden": false,
+          "damping": 0.6
+        }
+    ],
+    "Chaos Proof": [
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 0, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 0, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 0, 0)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 0, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 0, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 0, 0)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 160, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 160, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 160, 0)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 95,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 160, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 160, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 160, 0)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(233, 255, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(233, 255, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(233, 255, 0)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 100,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(233, 255, 0)",
+            "lineWeight": 5,
+            "lineColor": "rgb(233, 255, 0)",
+            "trailWeight": 0,
+            "trailColor": "rgb(233, 255, 0)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 255, 46)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 255, 46)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 255, 46)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 105,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 255, 46)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 255, 46)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 255, 46)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 255, 217)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 255, 217)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 255, 217)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 110,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 255, 217)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 255, 217)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 255, 217)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 176, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 176, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 176, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 115,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 176, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 176, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 176, 255)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 50, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 50, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 50, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 120,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(0, 50, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(0, 50, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(0, 50, 255)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(49, 0, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(49, 0, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(49, 0, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 125,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(49, 0, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(49, 0, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(49, 0, 255)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(166, 0, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(166, 0, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(166, 0, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 130,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(166, 0, 255)",
+            "lineWeight": 5,
+            "lineColor": "rgb(166, 0, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(166, 0, 255)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(125, 125, 125)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 0, 200)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 0, 200)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 0, 200)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 1,
+            "angle": 135,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 0, 200)",
+            "lineWeight": 5,
+            "lineColor": "rgb(255, 0, 200)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 0, 200)",
+            "trailLen": 100
+          },
+          "hidden": false
+        }
+    ],
+    "Dank": [
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 36,
+            "y": -215,
+            "radius": 0,
+            "color": "rgb(52, 85, 229)"
+          },
+          "bob1": {
+            "length": 0.06666666666666667,
+            "mass": 1,
+            "angle": 323,
+            "velocity": -2.379150906798638,
+            "radius": 0,
+            "color": "rgb(52, 85, 229)",
+            "lineWeight": 0,
+            "lineColor": "rgb(52, 85, 229)",
+            "trailWeight": 0,
+            "trailColor": "rgb(52, 85, 229)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.2677879961935417,
+            "mass": 1,
+            "angle": 235,
+            "velocity": -0.9311995997956934,
+            "radius": 44,
+            "color": "rgb(52, 85, 229)",
+            "lineWeight": 0,
+            "lineColor": "rgb(52, 85, 229)",
+            "trailWeight": 0,
+            "trailColor": "rgb(52, 85, 229)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -48,
+            "y": -115,
+            "radius": 0,
+            "color": "rgb(8, 112, 26)"
+          },
+          "bob1": {
+            "length": 0.13333333333333333,
+            "mass": 1,
+            "angle": 336,
+            "velocity": -4.304765014250259,
+            "radius": 0,
+            "color": "rgb(8, 112, 26)",
+            "lineWeight": 0,
+            "lineColor": "rgb(8, 112, 26)",
+            "trailWeight": 0,
+            "trailColor": "rgb(8, 112, 26)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.957160587251317,
+            "mass": 1,
+            "angle": 296,
+            "velocity": -0.6000131194633262,
+            "radius": 43,
+            "color": "rgb(8, 112, 26)",
+            "lineWeight": 0,
+            "lineColor": "rgb(8, 112, 26)",
+            "trailWeight": 0,
+            "trailColor": "rgb(8, 112, 26)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -28,
+            "y": -238,
+            "radius": 0,
+            "color": "rgb(18, 216, 177)"
+          },
+          "bob1": {
+            "length": 0.2,
+            "mass": 1,
+            "angle": 212,
+            "velocity": -2.636127505772603,
+            "radius": 0,
+            "color": "rgb(18, 216, 177)",
+            "lineWeight": 0,
+            "lineColor": "rgb(18, 216, 177)",
+            "trailWeight": 0,
+            "trailColor": "rgb(18, 216, 177)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.148194402954247,
+            "mass": 1,
+            "angle": 46,
+            "velocity": 4.647055852364575,
+            "radius": 26,
+            "color": "rgb(18, 216, 177)",
+            "lineWeight": 0,
+            "lineColor": "rgb(18, 216, 177)",
+            "trailWeight": 0,
+            "trailColor": "rgb(18, 216, 177)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -95,
+            "y": -87,
+            "radius": 0,
+            "color": "rgb(167, 98, 184)"
+          },
+          "bob1": {
+            "length": 0.26666666666666666,
+            "mass": 1,
+            "angle": 306,
+            "velocity": -1.797237203735852,
+            "radius": 0,
+            "color": "rgb(167, 98, 184)",
+            "lineWeight": 0,
+            "lineColor": "rgb(167, 98, 184)",
+            "trailWeight": 0,
+            "trailColor": "rgb(167, 98, 184)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 0.7362451340334875,
+            "mass": 1,
+            "angle": 109,
+            "velocity": 0.21944736232296647,
+            "radius": 31,
+            "color": "rgb(167, 98, 184)",
+            "lineWeight": 0,
+            "lineColor": "rgb(167, 98, 184)",
+            "trailWeight": 0,
+            "trailColor": "rgb(167, 98, 184)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -63,
+            "y": -247,
+            "radius": 0,
+            "color": "rgb(125, 184, 216)"
+          },
+          "bob1": {
+            "length": 0.3333333333333333,
+            "mass": 1,
+            "angle": 174,
+            "velocity": 1.5357872299647113,
+            "radius": 0,
+            "color": "rgb(125, 184, 216)",
+            "lineWeight": 0,
+            "lineColor": "rgb(125, 184, 216)",
+            "trailWeight": 0,
+            "trailColor": "rgb(125, 184, 216)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.4443233717356296,
+            "mass": 1,
+            "angle": 243,
+            "velocity": -1.0837318681663133,
+            "radius": 50,
+            "color": "rgb(125, 184, 216)",
+            "lineWeight": 0,
+            "lineColor": "rgb(125, 184, 216)",
+            "trailWeight": 0,
+            "trailColor": "rgb(125, 184, 216)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 97,
+            "y": -98,
+            "radius": 0,
+            "color": "rgb(74, 141, 218)"
+          },
+          "bob1": {
+            "length": 0.39999999999999997,
+            "mass": 1,
+            "angle": 226,
+            "velocity": -4.029196830031445,
+            "radius": 0,
+            "color": "rgb(74, 141, 218)",
+            "lineWeight": 0,
+            "lineColor": "rgb(74, 141, 218)",
+            "trailWeight": 0,
+            "trailColor": "rgb(74, 141, 218)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.6692873258633143,
+            "mass": 1,
+            "angle": 343,
+            "velocity": -3.8882820827544204,
+            "radius": 16,
+            "color": "rgb(74, 141, 218)",
+            "lineWeight": 0,
+            "lineColor": "rgb(74, 141, 218)",
+            "trailWeight": 0,
+            "trailColor": "rgb(74, 141, 218)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 76,
+            "y": -67,
+            "radius": 0,
+            "color": "rgb(83, 4, 192)"
+          },
+          "bob1": {
+            "length": 0.4666666666666667,
+            "mass": 1,
+            "angle": 36,
+            "velocity": 4.2458507254831765,
+            "radius": 0,
+            "color": "rgb(83, 4, 192)",
+            "lineWeight": 0,
+            "lineColor": "rgb(83, 4, 192)",
+            "trailWeight": 0,
+            "trailColor": "rgb(83, 4, 192)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.5315249001453415,
+            "mass": 1,
+            "angle": 49,
+            "velocity": 2.2516573609995127,
+            "radius": 42,
+            "color": "rgb(83, 4, 192)",
+            "lineWeight": 0,
+            "lineColor": "rgb(83, 4, 192)",
+            "trailWeight": 0,
+            "trailColor": "rgb(83, 4, 192)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 78,
+            "y": -210,
+            "radius": 0,
+            "color": "rgb(167, 63, 152)"
+          },
+          "bob1": {
+            "length": 0.5333333333333333,
+            "mass": 1,
+            "angle": 93,
+            "velocity": 4.540039556378374,
+            "radius": 0,
+            "color": "rgb(167, 63, 152)",
+            "lineWeight": 0,
+            "lineColor": "rgb(167, 63, 152)",
+            "trailWeight": 0,
+            "trailColor": "rgb(167, 63, 152)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 0.57926784691759,
+            "mass": 1,
+            "angle": 340,
+            "velocity": -1.4584060936219778,
+            "radius": 46,
+            "color": "rgb(167, 63, 152)",
+            "lineWeight": 0,
+            "lineColor": "rgb(167, 63, 152)",
+            "trailWeight": 0,
+            "trailColor": "rgb(167, 63, 152)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 64,
+            "y": -142,
+            "radius": 0,
+            "color": "rgb(24, 67, 1)"
+          },
+          "bob1": {
+            "length": 0.6,
+            "mass": 1,
+            "angle": 106,
+            "velocity": 0.773949130105902,
+            "radius": 0,
+            "color": "rgb(24, 67, 1)",
+            "lineWeight": 0,
+            "lineColor": "rgb(24, 67, 1)",
+            "trailWeight": 0,
+            "trailColor": "rgb(24, 67, 1)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 0.525793602605021,
+            "mass": 1,
+            "angle": 199,
+            "velocity": -0.017879247903040962,
+            "radius": 27,
+            "color": "rgb(24, 67, 1)",
+            "lineWeight": 0,
+            "lineColor": "rgb(24, 67, 1)",
+            "trailWeight": 0,
+            "trailColor": "rgb(24, 67, 1)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -8,
+            "y": -191,
+            "radius": 0,
+            "color": "rgb(22, 157, 117)"
+          },
+          "bob1": {
+            "length": 0.6666666666666666,
+            "mass": 1,
+            "angle": 25,
+            "velocity": 4.339485164823832,
+            "radius": 0,
+            "color": "rgb(22, 157, 117)",
+            "lineWeight": 0,
+            "lineColor": "rgb(22, 157, 117)",
+            "trailWeight": 0,
+            "trailColor": "rgb(22, 157, 117)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.234165492845301,
+            "mass": 1,
+            "angle": 0,
+            "velocity": 2.3373060121847344,
+            "radius": 19,
+            "color": "rgb(22, 157, 117)",
+            "lineWeight": 0,
+            "lineColor": "rgb(22, 157, 117)",
+            "trailWeight": 0,
+            "trailColor": "rgb(22, 157, 117)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 99,
+            "y": -235,
+            "radius": 0,
+            "color": "rgb(254, 184, 129)"
+          },
+          "bob1": {
+            "length": 0.7333333333333333,
+            "mass": 1,
+            "angle": 331,
+            "velocity": -3.272809273464751,
+            "radius": 0,
+            "color": "rgb(254, 184, 129)",
+            "lineWeight": 0,
+            "lineColor": "rgb(254, 184, 129)",
+            "trailWeight": 0,
+            "trailColor": "rgb(254, 184, 129)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.2472922658003855,
+            "mass": 1,
+            "angle": 70,
+            "velocity": 3.2788253193582264,
+            "radius": 47,
+            "color": "rgb(254, 184, 129)",
+            "lineWeight": 0,
+            "lineColor": "rgb(254, 184, 129)",
+            "trailWeight": 0,
+            "trailColor": "rgb(254, 184, 129)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 3,
+            "y": -171,
+            "radius": 0,
+            "color": "rgb(86, 115, 29)"
+          },
+          "bob1": {
+            "length": 0.7999999999999999,
+            "mass": 1,
+            "angle": 331,
+            "velocity": -0.6772516033494758,
+            "radius": 0,
+            "color": "rgb(86, 115, 29)",
+            "lineWeight": 0,
+            "lineColor": "rgb(86, 115, 29)",
+            "trailWeight": 0,
+            "trailColor": "rgb(86, 115, 29)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 4.120511099974176,
+            "mass": 1,
+            "angle": 21,
+            "velocity": 4.545370591753908,
+            "radius": 30,
+            "color": "rgb(86, 115, 29)",
+            "lineWeight": 0,
+            "lineColor": "rgb(86, 115, 29)",
+            "trailWeight": 0,
+            "trailColor": "rgb(86, 115, 29)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -65,
+            "y": -174,
+            "radius": 0,
+            "color": "rgb(242, 202, 147)"
+          },
+          "bob1": {
+            "length": 0.8666666666666667,
+            "mass": 1,
+            "angle": 39,
+            "velocity": 0.05993546795577509,
+            "radius": 0,
+            "color": "rgb(242, 202, 147)",
+            "lineWeight": 0,
+            "lineColor": "rgb(242, 202, 147)",
+            "trailWeight": 0,
+            "trailColor": "rgb(242, 202, 147)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 0.40683749253625445,
+            "mass": 1,
+            "angle": 65,
+            "velocity": 0.25828617047406577,
+            "radius": 49,
+            "color": "rgb(242, 202, 147)",
+            "lineWeight": 0,
+            "lineColor": "rgb(242, 202, 147)",
+            "trailWeight": 0,
+            "trailColor": "rgb(242, 202, 147)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -15,
+            "y": -182,
+            "radius": 0,
+            "color": "rgb(50, 189, 66)"
+          },
+          "bob1": {
+            "length": 0.9333333333333333,
+            "mass": 1,
+            "angle": 306,
+            "velocity": -1.141811384237067,
+            "radius": 0,
+            "color": "rgb(50, 189, 66)",
+            "lineWeight": 0,
+            "lineColor": "rgb(50, 189, 66)",
+            "trailWeight": 0,
+            "trailColor": "rgb(50, 189, 66)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 4.675748136804851,
+            "mass": 1,
+            "angle": 21,
+            "velocity": 3.35455270301524,
+            "radius": 34,
+            "color": "rgb(50, 189, 66)",
+            "lineWeight": 0,
+            "lineColor": "rgb(50, 189, 66)",
+            "trailWeight": 0,
+            "trailColor": "rgb(50, 189, 66)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 8,
+            "y": -113,
+            "radius": 0,
+            "color": "rgb(239, 62, 70)"
+          },
+          "bob1": {
+            "length": 1,
+            "mass": 1,
+            "angle": 85,
+            "velocity": 4.248590094017539,
+            "radius": 0,
+            "color": "rgb(239, 62, 70)",
+            "lineWeight": 0,
+            "lineColor": "rgb(239, 62, 70)",
+            "trailWeight": 0,
+            "trailColor": "rgb(239, 62, 70)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 4.524760442566978,
+            "mass": 1,
+            "angle": 281,
+            "velocity": -0.6917973615208595,
+            "radius": 37,
+            "color": "rgb(239, 62, 70)",
+            "lineWeight": 0,
+            "lineColor": "rgb(239, 62, 70)",
+            "trailWeight": 0,
+            "trailColor": "rgb(239, 62, 70)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 89,
+            "y": -232,
+            "radius": 0,
+            "color": "rgb(48, 72, 88)"
+          },
+          "bob1": {
+            "length": 1.0666666666666667,
+            "mass": 1,
+            "angle": 330,
+            "velocity": -0.015701542343576902,
+            "radius": 0,
+            "color": "rgb(48, 72, 88)",
+            "lineWeight": 0,
+            "lineColor": "rgb(48, 72, 88)",
+            "trailWeight": 0,
+            "trailColor": "rgb(48, 72, 88)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.9417111447793705,
+            "mass": 1,
+            "angle": 338,
+            "velocity": -3.040816195015885,
+            "radius": 31,
+            "color": "rgb(48, 72, 88)",
+            "lineWeight": 0,
+            "lineColor": "rgb(48, 72, 88)",
+            "trailWeight": 0,
+            "trailColor": "rgb(48, 72, 88)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 30,
+            "y": -222,
+            "radius": 0,
+            "color": "rgb(142, 210, 50)"
+          },
+          "bob1": {
+            "length": 1.1333333333333333,
+            "mass": 1,
+            "angle": 20,
+            "velocity": 3.2167688192475943,
+            "radius": 0,
+            "color": "rgb(142, 210, 50)",
+            "lineWeight": 0,
+            "lineColor": "rgb(142, 210, 50)",
+            "trailWeight": 0,
+            "trailColor": "rgb(142, 210, 50)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.5979319209347835,
+            "mass": 1,
+            "angle": 52,
+            "velocity": 1.809500840295153,
+            "radius": 48,
+            "color": "rgb(142, 210, 50)",
+            "lineWeight": 0,
+            "lineColor": "rgb(142, 210, 50)",
+            "trailWeight": 0,
+            "trailColor": "rgb(142, 210, 50)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 43,
+            "y": -131,
+            "radius": 0,
+            "color": "rgb(181, 162, 236)"
+          },
+          "bob1": {
+            "length": 1.2,
+            "mass": 1,
+            "angle": 152,
+            "velocity": 4.530913764804354,
+            "radius": 0,
+            "color": "rgb(181, 162, 236)",
+            "lineWeight": 0,
+            "lineColor": "rgb(181, 162, 236)",
+            "trailWeight": 0,
+            "trailColor": "rgb(181, 162, 236)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.353018675431801,
+            "mass": 1,
+            "angle": 158,
+            "velocity": 4.127273739586762,
+            "radius": 27,
+            "color": "rgb(181, 162, 236)",
+            "lineWeight": 0,
+            "lineColor": "rgb(181, 162, 236)",
+            "trailWeight": 0,
+            "trailColor": "rgb(181, 162, 236)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -10,
+            "y": -91,
+            "radius": 0,
+            "color": "rgb(90, 98, 43)"
+          },
+          "bob1": {
+            "length": 1.2666666666666666,
+            "mass": 1,
+            "angle": 60,
+            "velocity": 2.340379031962412,
+            "radius": 0,
+            "color": "rgb(90, 98, 43)",
+            "lineWeight": 0,
+            "lineColor": "rgb(90, 98, 43)",
+            "trailWeight": 0,
+            "trailColor": "rgb(90, 98, 43)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.4141134254963936,
+            "mass": 1,
+            "angle": 212,
+            "velocity": -1.7676373629578368,
+            "radius": 15,
+            "color": "rgb(90, 98, 43)",
+            "lineWeight": 0,
+            "lineColor": "rgb(90, 98, 43)",
+            "trailWeight": 0,
+            "trailColor": "rgb(90, 98, 43)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": -2,
+            "y": -244,
+            "radius": 0,
+            "color": "rgb(32, 119, 125)"
+          },
+          "bob1": {
+            "length": 1.3333333333333333,
+            "mass": 1,
+            "angle": 170,
+            "velocity": 2.7226933574164924,
+            "radius": 0,
+            "color": "rgb(32, 119, 125)",
+            "lineWeight": 0,
+            "lineColor": "rgb(32, 119, 125)",
+            "trailWeight": 0,
+            "trailColor": "rgb(32, 119, 125)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 4.049027546181348,
+            "mass": 1,
+            "angle": 321,
+            "velocity": -0.41970716373602834,
+            "radius": 6,
+            "color": "rgb(32, 119, 125)",
+            "lineWeight": 0,
+            "lineColor": "rgb(32, 119, 125)",
+            "trailWeight": 0,
+            "trailColor": "rgb(32, 119, 125)",
+            "trailLen": 100
+          },
+          "hidden": false
+        }
+    ],
+    "Bubbles": [
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(149, 149, 149, 0.204)"
+          },
+          "bob1": {
+            "length": 1.6836756233075225,
+            "mass": 1,
+            "angle": -39.87,
+            "velocity": -1.13,
+            "radius": 0,
+            "color": "rgba(149, 149, 149, 0.204)",
+            "lineWeight": 0,
+            "lineColor": "rgba(149, 149, 149, 0.204)",
+            "trailWeight": 0,
+            "trailColor": "rgba(149, 149, 149, 0.204)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.88484330719136,
+            "mass": 1,
+            "angle": -115.4,
+            "velocity": -0.91,
+            "radius": 72,
+            "color": "rgba(149, 149, 149, 0.204)",
+            "lineWeight": 0,
+            "lineColor": "rgba(149, 149, 149, 0.204)",
+            "trailWeight": 0,
+            "trailColor": "rgba(149, 149, 149, 0.204)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(159, 159, 159, 0.429)"
+          },
+          "bob1": {
+            "length": 2.485925356209278,
+            "mass": 1,
+            "angle": -24.72,
+            "velocity": -0.33,
+            "radius": 0,
+            "color": "rgba(159, 159, 159, 0.429)",
+            "lineWeight": 0,
+            "lineColor": "rgba(159, 159, 159, 0.429)",
+            "trailWeight": 0,
+            "trailColor": "rgba(159, 159, 159, 0.429)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.5667141274317995,
+            "mass": 1,
+            "angle": -38.15,
+            "velocity": -0.04,
+            "radius": 47,
+            "color": "rgba(159, 159, 159, 0.429)",
+            "lineWeight": 0,
+            "lineColor": "rgba(159, 159, 159, 0.429)",
+            "trailWeight": 0,
+            "trailColor": "rgba(159, 159, 159, 0.429)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(130, 130, 130, 0.46)"
+          },
+          "bob1": {
+            "length": 2.543640085359064,
+            "mass": 1,
+            "angle": -121.35,
+            "velocity": -1.74,
+            "radius": 0,
+            "color": "rgba(130, 130, 130, 0.46)",
+            "lineWeight": 0,
+            "lineColor": "rgba(130, 130, 130, 0.46)",
+            "trailWeight": 0,
+            "trailColor": "rgba(130, 130, 130, 0.46)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.9219904091365168,
+            "mass": 1,
+            "angle": 42.87,
+            "velocity": -1.05,
+            "radius": 45,
+            "color": "rgba(130, 130, 130, 0.46)",
+            "lineWeight": 0,
+            "lineColor": "rgba(130, 130, 130, 0.46)",
+            "trailWeight": 0,
+            "trailColor": "rgba(130, 130, 130, 0.46)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(118, 118, 118, 0.371)"
+          },
+          "bob1": {
+            "length": 2.0337436318629427,
+            "mass": 1,
+            "angle": -16.03,
+            "velocity": 1.65,
+            "radius": 0,
+            "color": "rgba(118, 118, 118, 0.371)",
+            "lineWeight": 0,
+            "lineColor": "rgba(118, 118, 118, 0.371)",
+            "trailWeight": 0,
+            "trailColor": "rgba(118, 118, 118, 0.371)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.4782081882267124,
+            "mass": 1,
+            "angle": 80.42,
+            "velocity": -0.9,
+            "radius": 90,
+            "color": "rgba(118, 118, 118, 0.371)",
+            "lineWeight": 0,
+            "lineColor": "rgba(118, 118, 118, 0.371)",
+            "trailWeight": 0,
+            "trailColor": "rgba(118, 118, 118, 0.371)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(137, 137, 137, 0.466)"
+          },
+          "bob1": {
+            "length": 1.4084069731842543,
+            "mass": 1,
+            "angle": -120.17,
+            "velocity": 0.52,
+            "radius": 0,
+            "color": "rgba(137, 137, 137, 0.466)",
+            "lineWeight": 0,
+            "lineColor": "rgba(137, 137, 137, 0.466)",
+            "trailWeight": 0,
+            "trailColor": "rgba(137, 137, 137, 0.466)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.7869404418916908,
+            "mass": 1,
+            "angle": 121.1,
+            "velocity": 0.64,
+            "radius": 76,
+            "color": "rgba(137, 137, 137, 0.466)",
+            "lineWeight": 0,
+            "lineColor": "rgba(137, 137, 137, 0.466)",
+            "trailWeight": 0,
+            "trailColor": "rgba(137, 137, 137, 0.466)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(151, 151, 151, 0.319)"
+          },
+          "bob1": {
+            "length": 2.730826813646763,
+            "mass": 1,
+            "angle": -53.42,
+            "velocity": 1.65,
+            "radius": 0,
+            "color": "rgba(151, 151, 151, 0.319)",
+            "lineWeight": 0,
+            "lineColor": "rgba(151, 151, 151, 0.319)",
+            "trailWeight": 0,
+            "trailColor": "rgba(151, 151, 151, 0.319)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.605925917109446,
+            "mass": 1,
+            "angle": -83.36,
+            "velocity": -4.59,
+            "radius": 55,
+            "color": "rgba(151, 151, 151, 0.319)",
+            "lineWeight": 0,
+            "lineColor": "rgba(151, 151, 151, 0.319)",
+            "trailWeight": 0,
+            "trailColor": "rgba(151, 151, 151, 0.319)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(31, 31, 31, 0.441)"
+          },
+          "bob1": {
+            "length": 2.9177581875316725,
+            "mass": 1,
+            "angle": 35.67,
+            "velocity": 3.27,
+            "radius": 0,
+            "color": "rgba(31, 31, 31, 0.441)",
+            "lineWeight": 0,
+            "lineColor": "rgba(31, 31, 31, 0.441)",
+            "trailWeight": 0,
+            "trailColor": "rgba(31, 31, 31, 0.441)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.7086246579549345,
+            "mass": 1,
+            "angle": 105.33,
+            "velocity": 0.68,
+            "radius": 79,
+            "color": "rgba(31, 31, 31, 0.441)",
+            "lineWeight": 0,
+            "lineColor": "rgba(31, 31, 31, 0.441)",
+            "trailWeight": 0,
+            "trailColor": "rgba(31, 31, 31, 0.441)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(137, 137, 137, 0.21)"
+          },
+          "bob1": {
+            "length": 2.7842797654213847,
+            "mass": 1,
+            "angle": -75.8,
+            "velocity": -1.34,
+            "radius": 0,
+            "color": "rgba(137, 137, 137, 0.21)",
+            "lineWeight": 0,
+            "lineColor": "rgba(137, 137, 137, 0.21)",
+            "trailWeight": 0,
+            "trailColor": "rgba(137, 137, 137, 0.21)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.548016206658864,
+            "mass": 1,
+            "angle": -49.59,
+            "velocity": -0.62,
+            "radius": 63,
+            "color": "rgba(137, 137, 137, 0.21)",
+            "lineWeight": 0,
+            "lineColor": "rgba(137, 137, 137, 0.21)",
+            "trailWeight": 0,
+            "trailColor": "rgba(137, 137, 137, 0.21)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(96, 96, 96, 0.219)"
+          },
+          "bob1": {
+            "length": 2.862992256391255,
+            "mass": 1,
+            "angle": 251.19,
+            "velocity": 2.61,
+            "radius": 0,
+            "color": "rgba(96, 96, 96, 0.219)",
+            "lineWeight": 0,
+            "lineColor": "rgba(96, 96, 96, 0.219)",
+            "trailWeight": 0,
+            "trailColor": "rgba(96, 96, 96, 0.219)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.2333264146138478,
+            "mass": 1,
+            "angle": 21.56,
+            "velocity": 1.92,
+            "radius": 25,
+            "color": "rgba(96, 96, 96, 0.219)",
+            "lineWeight": 0,
+            "lineColor": "rgba(96, 96, 96, 0.219)",
+            "trailWeight": 0,
+            "trailColor": "rgba(96, 96, 96, 0.219)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(121, 121, 121, 0.225)"
+          },
+          "bob1": {
+            "length": 2.879076618904463,
+            "mass": 1,
+            "angle": 35.06,
+            "velocity": -0.64,
+            "radius": 0,
+            "color": "rgba(121, 121, 121, 0.225)",
+            "lineWeight": 0,
+            "lineColor": "rgba(121, 121, 121, 0.225)",
+            "trailWeight": 0,
+            "trailColor": "rgba(121, 121, 121, 0.225)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 2.5827242996268813,
+            "mass": 1,
+            "angle": 99.59,
+            "velocity": 3.23,
+            "radius": 81,
+            "color": "rgba(121, 121, 121, 0.225)",
+            "lineWeight": 0,
+            "lineColor": "rgba(121, 121, 121, 0.225)",
+            "trailWeight": 0,
+            "trailColor": "rgba(121, 121, 121, 0.225)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(122, 122, 122, 0.383)"
+          },
+          "bob1": {
+            "length": 1.7894125467158006,
+            "mass": 1,
+            "angle": 312.94,
+            "velocity": -3.74,
+            "radius": 0,
+            "color": "rgba(122, 122, 122, 0.383)",
+            "lineWeight": 0,
+            "lineColor": "rgba(122, 122, 122, 0.383)",
+            "trailWeight": 0,
+            "trailColor": "rgba(122, 122, 122, 0.383)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.4056384745328607,
+            "mass": 1,
+            "angle": -40.89,
+            "velocity": 1.49,
+            "radius": 70,
+            "color": "rgba(122, 122, 122, 0.383)",
+            "lineWeight": 0,
+            "lineColor": "rgba(122, 122, 122, 0.383)",
+            "trailWeight": 0,
+            "trailColor": "rgba(122, 122, 122, 0.383)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(166, 166, 166, 0.245)"
+          },
+          "bob1": {
+            "length": 2.622811821124004,
+            "mass": 1,
+            "angle": 40.94,
+            "velocity": -2.05,
+            "radius": 0,
+            "color": "rgba(166, 166, 166, 0.245)",
+            "lineWeight": 0,
+            "lineColor": "rgba(166, 166, 166, 0.245)",
+            "trailWeight": 0,
+            "trailColor": "rgba(166, 166, 166, 0.245)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.3519499140184665,
+            "mass": 1,
+            "angle": -94.57,
+            "velocity": -1.85,
+            "radius": 26,
+            "color": "rgba(166, 166, 166, 0.245)",
+            "lineWeight": 0,
+            "lineColor": "rgba(166, 166, 166, 0.245)",
+            "trailWeight": 0,
+            "trailColor": "rgba(166, 166, 166, 0.245)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(136, 136, 136, 0.294)"
+          },
+          "bob1": {
+            "length": 2.3643395183207194,
+            "mass": 1,
+            "angle": -132.5,
+            "velocity": -1.15,
+            "radius": 0,
+            "color": "rgba(136, 136, 136, 0.294)",
+            "lineWeight": 0,
+            "lineColor": "rgba(136, 136, 136, 0.294)",
+            "trailWeight": 0,
+            "trailColor": "rgba(136, 136, 136, 0.294)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.8433838677249612,
+            "mass": 1,
+            "angle": 13.49,
+            "velocity": -2.14,
+            "radius": 83,
+            "color": "rgba(136, 136, 136, 0.294)",
+            "lineWeight": 0,
+            "lineColor": "rgba(136, 136, 136, 0.294)",
+            "trailWeight": 0,
+            "trailColor": "rgba(136, 136, 136, 0.294)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(45, 45, 45, 0.334)"
+          },
+          "bob1": {
+            "length": 2.1546514668542294,
+            "mass": 1,
+            "angle": 15.87,
+            "velocity": -2.63,
+            "radius": 0,
+            "color": "rgba(45, 45, 45, 0.334)",
+            "lineWeight": 0,
+            "lineColor": "rgba(45, 45, 45, 0.334)",
+            "trailWeight": 0,
+            "trailColor": "rgba(45, 45, 45, 0.334)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 3.9950742599505302,
+            "mass": 1,
+            "angle": -19.24,
+            "velocity": 1.47,
+            "radius": 84,
+            "color": "rgba(45, 45, 45, 0.334)",
+            "lineWeight": 0,
+            "lineColor": "rgba(45, 45, 45, 0.334)",
+            "trailWeight": 0,
+            "trailColor": "rgba(45, 45, 45, 0.334)",
+            "trailLen": 100
+          },
+          "hidden": false
+        },
+        {
+          "simSpeed": 0.1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 0,
+            "color": "rgba(71, 71, 71, 0.418)"
+          },
+          "bob1": {
+            "length": 1.011317984884089,
+            "mass": 1,
+            "angle": 257.85,
+            "velocity": -6.22,
+            "radius": 0,
+            "color": "rgba(71, 71, 71, 0.418)",
+            "lineWeight": 0,
+            "lineColor": "rgba(71, 71, 71, 0.418)",
+            "trailWeight": 0,
+            "trailColor": "rgba(71, 71, 71, 0.418)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1.5622862599577814,
+            "mass": 1,
+            "angle": -101.89,
+            "velocity": 5,
+            "radius": 59,
+            "color": "rgba(71, 71, 71, 0.418)",
+            "lineWeight": 0,
+            "lineColor": "rgba(71, 71, 71, 0.418)",
+            "trailWeight": 0,
+            "trailColor": "rgba(71, 71, 71, 0.418)",
+            "trailLen": 100
+          },
+          "hidden": false
+        }
+    ],
+    "Single Pendulum": [
+        {
+          "simSpeed": 1,
+          "damping": 0,
+          "g": 9.81,
+          "compound": false,
+          "origin": {
+            "x": 0,
+            "y": -150,
+            "radius": 10,
+            "color": "rgb(117, 117, 117)"
+          },
+          "bob1": {
+            "length": 2,
+            "mass": 3,
+            "angle": 90,
+            "velocity": 0,
+            "radius": 50,
+            "color": "rgb(255, 255, 255)",
+            "lineWeight": 2,
+            "lineColor": "rgb(255, 255, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 255, 255)",
+            "trailLen": 100
+          },
+          "bob2": {
+            "length": 1,
+            "mass": 0,
+            "angle": 0,
+            "velocity": 0,
+            "radius": 0,
+            "color": "rgb(255, 255, 255)",
+            "lineWeight": 0,
+            "lineColor": "rgb(255, 255, 255)",
+            "trailWeight": 0,
+            "trailColor": "rgb(255, 255, 255)",
+            "trailLen": 100
+          },
+          "hidden": false
+        }
+    ]
+}
