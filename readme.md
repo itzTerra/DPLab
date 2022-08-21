@@ -28,7 +28,6 @@ The input constraints are lenient, so if you feed the simulator crazy numbers, d
 - Customizable Canvas background color
 - Fullscreen mode
 - Capture the moment with *Right-Click -> Save image as...*
-- 
 
 ### Tips & Tricks
 - Change all colors of a DP at once using the square on the left of a dropdown-header 
