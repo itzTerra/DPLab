@@ -581,12 +581,24 @@ const app = Vue.createApp({
                 alert(`Invalid data!\n(ids: ${ids})`);
             }
             else{
+                let len;
                 if (clear){
+                    len = this.DPs.length;
                     this.DPs.length = 0;
                 }
-                settings.forEach((data) => {
+                for (const data of settings) {
                     this.DPs.push(new DP(data));
+                }
+
+                this.$nextTick(() => {
+                    if (len){
+                        const n = Math.min(len, settings.length);
+                        for (let i = 0; i < n; i++){
+                            this.$refs.doublePendulums[i].updateColorInputs();
+                        }
+                    }
                 })
+                
                 this.drawOnce();
             }
         },

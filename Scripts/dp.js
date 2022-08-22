@@ -169,8 +169,8 @@ class DP{
 
     // h: timeStep
     RK4Step(x, h){
-        let damping = (1 - this.data.damping * (Math.sign(this.data.damping) == -1 ? 10 : 1));
-        h /= damping;
+        let damping = (1 - this.data.damping);
+        h = Math.min(h / damping, 0.4);
 
         this.RatesOfChange(x,this.k1);
         for (let i = 0; i < this.nEquations; i++) {
@@ -186,7 +186,8 @@ class DP{
         }
         this.RatesOfChange(this.store, this.k4);
         for (let i = 0; i < this.nEquations; i++) {
-            x[i] += (this.k1[i] + 2*this.k2[i] + 2*this.k3[i] + this.k4[i]) * h/6 * damping;
+            let a = (this.k1[i] + 2*this.k2[i] + 2*this.k3[i] + this.k4[i]) * h/6 * damping;
+            x[i] += Math.max(Math.min(a, 99999), -99999);
         }
     }
     /*
@@ -209,7 +210,9 @@ class DP{
     show(p, simulate = true){
         let data = this.data;
 
-        if (simulate && data.simSpeed != 0 && !this.paused){
+        simulate = simulate && data.simSpeed != 0 && p.deltaTime != 0 && !this.paused;
+
+        if (simulate){
             this.RK4Step(this.x, data.simSpeed * p.deltaTime/1000);
             this.XtoReadable();
         }
@@ -234,7 +237,7 @@ class DP{
                     lastTrailPoint = v;
                 }
 
-                if (simulate && data.simSpeed != 0 && !this.paused){
+                if (simulate){
                     let diff = this.trail1.length - data.bob1.trailLen;
                     if (data.bob1.trailLen > -1 && diff){
                         this.trail1.splice(0, diff);
@@ -254,7 +257,7 @@ class DP{
                     lastTrailPoint = v;
                 }
 
-                if (simulate && data.simSpeed != 0 && !this.paused){
+                if (simulate){
                     let diff = this.trail2.length - data.bob2.trailLen;
                     if (data.bob2.trailLen > -1 && diff){
                         this.trail2.splice(0, diff);
