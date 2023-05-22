@@ -41,7 +41,7 @@ export var DoublePendulum = {
                   <input v-model.number="dp.data.simSpeed" @input="() => dp.inputs.simSpeed = dp.data.simSpeed" type="range" class="form-range" min="0" max="10" step="0.05" :aria-labelledby="'simSpeedLabel'+index">
                 </div>
                 <div class="g-simSpeed2">
-                  <input :value="dp.inputs.simSpeed" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="simSpeed" type="number" min="0" max="10" step="any" class="form-control form-control-sm" :aria-labelledby="'simSpeedLabel'+index">
+                  <input :value="dp.inputs.simSpeed" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="simSpeed" type="number" min="0" max="10" step="any" class="form-control form-control-sm" :aria-labelledby="'simSpeedLabel'+index">
                 </div>
                 <div class="g-damping">
                   <label :id="'dampingLabel'+index">Damping</label>
@@ -50,14 +50,14 @@ export var DoublePendulum = {
                   <input v-model.number="dp.data.damping" @input="() => dp.inputs.damping = dp.data.damping" type="range" min="-0.9" max="0.9" step="0.01" class="form-range" :aria-labelledby="'dampingLabel'+index">
                 </div>
                 <div class="g-damping2">
-                  <input :value="dp.inputs.damping" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="damping" type="number" min="-0.9" max="0.9" step="any" class="form-control form-control-sm" :aria-labelledby="'dampingLabel'+index">
+                  <input :value="dp.inputs.damping" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="damping" type="number" min="-0.9" max="0.9" step="any" class="form-control form-control-sm" :aria-labelledby="'dampingLabel'+index">
                 </div>
               </div>
               <div class="row align-items-center">
                 <div class="col">
                   <div class="d-flex gap-2 align-items-center">
                     <label :for="'gravityInput'+index" class="col-form-label">Gravity</label>
-                    <input v-model="dp.data.g" @focusout="(e) => ValidateInput(e, false)" name="g" data-default-val="0" type="number" :id="'gravityInput'+index" step="any" class="form-control form-control-sm">
+                    <input :value="dp.inputs.g" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="g" data-default-val="0" type="number" :id="'gravityInput'+index" min="-99999" max="99999" step="any" class="form-control form-control-sm">
                   </div>
                 </div>
                 <div class="col">
@@ -80,13 +80,13 @@ export var DoublePendulum = {
                     <label :for="'oxInput'+index" class="col-form-label">X</label>
                   </div>
                   <div class="g-val1">
-                    <input :value="dp.inputs.ox" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="ox" data-default-val="0" type="number" :id="'oxInput'+index" class="form-control form-control-sm">
+                    <input :value="dp.inputs.ox" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="ox" data-default-val="0" type="number" :id="'oxInput'+index" class="form-control form-control-sm">
                   </div>
                   <div class="g-label2">
                     <label :for="'oyInput'+index" class="col-form-label">Y</label>
                   </div>
                   <div class="g-val2">
-                    <input :value="dp.inputs.oy" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="oy" data-default-val="-150" type="number" :id="'oyInput'+index" class="form-control form-control-sm">
+                    <input :value="dp.inputs.oy" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="oy" data-default-val="-150" type="number" :id="'oyInput'+index" class="form-control form-control-sm">
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export var DoublePendulum = {
                 <label :for="'orInput'+index" class="col-form-label">Radius</label>
               </div>
               <div class="g-val1">
-                <input :value="dp.inputs.or" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="or" type="number" :id="'orInput'+index" min="0" class="form-control form-control-sm">
+                <input :value="dp.inputs.or" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="or" type="number" :id="'orInput'+index" min="0" max="99999" class="form-control form-control-sm">
               </div>
               <div class="g-label2">
                 <label :for="'ocInput'+index" class="col-form-label">Color</label>
@@ -141,34 +141,34 @@ export var DoublePendulum = {
                 </label>
               </div>
               <div class="g-l1">
-                <input :value="dp.inputs.l1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="l1" type="number" min="0.001" step="any" class="form-control form-control-sm" :aria-labelledby="'lengthLabel'+index">
+                <input :value="dp.inputs.l1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="l1" type="number" min="0.001" max="99999" step="any" class="form-control form-control-sm" :aria-labelledby="'lengthLabel'+index">
               </div>
               <div class="g-l2">
-                <input :value="dp.inputs.l2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="l2" type="number" min="0.001" step="any" class="form-control form-control-sm" :aria-labelledby="'lengthLabel'+index">
+                <input :value="dp.inputs.l2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="l2" type="number" min="0.001" max="99999" step="any" class="form-control form-control-sm" :aria-labelledby="'lengthLabel'+index">
               </div>
               <div class="g-m1">
-                <input :value="dp.inputs.m1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="m1" type="number" min="0.001" step="any" class="form-control form-control-sm" :aria-labelledby="'massLabel'+index">
+                <input :value="dp.inputs.m1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="m1" type="number" min="0.001" max="99999" step="any" class="form-control form-control-sm" :aria-labelledby="'massLabel'+index">
               </div>
               <div class="g-m2">
-                <input :value="dp.inputs.m2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="m2" type="number" :min="dp.compound ? 0.000001 : 0" step="any" class="form-control form-control-sm" :aria-labelledby="'massLabel'+index">
+                <input :value="dp.inputs.m2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="m2" type="number" :min="dp.compound ? 0.000001 : 0" max="99999" step="any" class="form-control form-control-sm" :aria-labelledby="'massLabel'+index">
               </div>
               <div class="g-a1">
-                <input :value="dp.data.bob1.angle" @input="ValidateInput" @focusin="dp.paused = true" @focusout="(e) => {ValidateInput(e, false); dp.paused = false}" name="a1" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'angleLabel'+index">
+                <input :value="dp.data.bob1.angle" @input="validateInput" @focusin="dp.paused = true" @focusout="(e) => {validateInput(e, false); dp.paused = false}" name="a1" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'angleLabel'+index">
               </div>
               <div class="g-a2">
-                <input :value="dp.data.bob2.angle" @input="ValidateInput" @focusin="dp.paused = true" @focusout="(e) => {ValidateInput(e, false); dp.paused = false}" name="a2" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'angleLabel'+index">
+                <input :value="dp.data.bob2.angle" @input="validateInput" @focusin="dp.paused = true" @focusout="(e) => {validateInput(e, false); dp.paused = false}" name="a2" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'angleLabel'+index">
               </div>
               <div class="g-v1">
-                <input :value="dp.data.bob1.velocity" @input="ValidateInput" @focusin="dp.paused = true" @focusout="(e) => {ValidateInput(e, false); dp.paused = false}" name="v1" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'velocityLabel'+index">
+                <input :value="dp.data.bob1.velocity" @input="validateInput" @focusin="dp.paused = true" @focusout="(e) => {validateInput(e, false); dp.paused = false}" name="v1" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'velocityLabel'+index">
               </div>
               <div class="g-v2">
-                <input :value="dp.data.bob2.velocity" @input="ValidateInput" @focusin="dp.paused = true" @focusout="(e) => {ValidateInput(e, false); dp.paused = false}" name="v2" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'velocityLabel'+index">
+                <input :value="dp.data.bob2.velocity" @input="validateInput" @focusin="dp.paused = true" @focusout="(e) => {validateInput(e, false); dp.paused = false}" name="v2" data-default-val="0" type="number" step="any" class="form-control form-control-sm no-spinner" :aria-labelledby="'velocityLabel'+index">
               </div>
               <div class="g-r1">
-                <input :value="dp.inputs.r1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="r1" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'bobLabel'+index">
+                <input :value="dp.inputs.r1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="r1" type="number" min="0" max="99999" class="form-control form-control-sm" :aria-labelledby="'bobLabel'+index">
               </div>
               <div class="g-r2">
-                <input :value="dp.inputs.r2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="r2" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'bobLabel'+index">
+                <input :value="dp.inputs.r2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="r2" type="number" min="0" max="99999" class="form-control form-control-sm" :aria-labelledby="'bobLabel'+index">
               </div>
               <div class="g-c1">
                 <input name="c1" :data-color="dp.data.bob1.color" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'bobLabel'+index">
@@ -177,10 +177,10 @@ export var DoublePendulum = {
                 <input name="c2" :data-color="dp.data.bob2.color" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'bobLabel'+index">
               </div>
               <div class="g-lw1">
-                <input :value="dp.inputs.lw1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="lw1" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'rodLabel'+index">
+                <input :value="dp.inputs.lw1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="lw1" type="number" min="0" max="9999" class="form-control form-control-sm" :aria-labelledby="'rodLabel'+index">
               </div>
               <div class="g-lw2">
-                <input :value="dp.inputs.lw2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="lw2" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'rodLabel'+index">
+                <input :value="dp.inputs.lw2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="lw2" type="number" min="0" max="9999" class="form-control form-control-sm" :aria-labelledby="'rodLabel'+index">
               </div>
               <div class="g-lc1">
                 <input name="lc1" :data-color="dp.data.bob1.lineColor" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'rodLabel'+index">
@@ -189,10 +189,10 @@ export var DoublePendulum = {
                 <input name="lc2" :data-color="dp.data.bob2.lineColor" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'rodLabel'+index">
               </div>
               <div class="g-tw1">
-                <input :value="dp.inputs.tw1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="tw1" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'trailLabel'+index">
+                <input :value="dp.inputs.tw1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="tw1" type="number" min="0" max="9999" class="form-control form-control-sm" :aria-labelledby="'trailLabel'+index">
               </div>
               <div class="g-tw2">
-                <input :value="dp.inputs.tw2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="tw2" type="number" min="0" class="form-control form-control-sm" :aria-labelledby="'trailLabel'+index">
+                <input :value="dp.inputs.tw2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="tw2" type="number" min="0" max="9999" class="form-control form-control-sm" :aria-labelledby="'trailLabel'+index">
               </div>
               <div class="g-tc1">
                 <input name="tc1" :data-color="dp.data.bob1.trailColor" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'trailLabel'+index">
@@ -201,10 +201,10 @@ export var DoublePendulum = {
                 <input name="tc2" :data-color="dp.data.bob2.trailColor" @input="$emit('drawOnce')" type="color" class="form-control form-control-sm form-control-color" title="Choose color" :aria-labelledby="'trailLabel'+index">
               </div>
               <div class="g-tl1">
-                <input :value="dp.inputs.tl1" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="tl1" type="number" min="-1" class="form-control form-control-sm" :aria-labelledby="'trailLengthLabel'+index">
+                <input :value="dp.inputs.tl1" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="tl1" type="number" min="-1" max="99999" class="form-control form-control-sm" :aria-labelledby="'trailLengthLabel'+index">
               </div>
               <div class="g-tl2">
-                <input :value="dp.inputs.tl2" @input="ValidateInput" @focusout="(e) => ValidateInput(e, false)" name="tl2" type="number" min="-1" class="form-control form-control-sm" :aria-labelledby="'trailLengthLabel'+index">
+                <input :value="dp.inputs.tl2" @input="validateInput" @focusout="(e) => validateInput(e, false)" name="tl2" type="number" min="-1" max="99999" class="form-control form-control-sm" :aria-labelledby="'trailLengthLabel'+index">
               </div>
             </div>
           </div>
@@ -281,13 +281,13 @@ export var DoublePendulum = {
                 $(this).spectrum("set", colors[i]);
             })
         },
-        ValidateInput(event, validate = true){
+        validateInput(event, validate = true){
             let propName = event.target.getAttribute('name');
             let min = event.target.getAttribute('min');
             let max = event.target.getAttribute('max');
             let val = event.target.value;
             if (val != ""){
-                val = Number(event.target.value);
+                val = Number(val);
             }
             let defaultVal = event.target.getAttribute('data-default-val');
 
@@ -306,6 +306,7 @@ export var DoublePendulum = {
                     val = Math.min(max, val);
                 }
             }
+
             if (propName == "simSpeed"){
                 this.dp.inputs.simSpeed = val;
                 if (!validate || valid){
@@ -319,7 +320,10 @@ export var DoublePendulum = {
                 }
             }
             else if (propName == "g"){
-                this.dp.data.g = val;
+                this.dp.inputs.g = val;
+                if (!validate || valid){
+                    this.dp.data.g = val;
+                }
             }
             else if (propName == "ox"){
                 this.dp.inputs.ox = val;

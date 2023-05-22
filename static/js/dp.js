@@ -47,6 +47,7 @@ class DP{
         this.inputs = {
             simSpeed: data.simSpeed,
             damping: data.damping,
+            g: data.g,
             ox: data.origin.x,
             oy: data.origin.y,
             or: data.origin.radius,
@@ -86,6 +87,7 @@ class DP{
     UpdateInputs(){
         this.inputs.simSpeed = this.data.simSpeed;
         this.inputs.damping = this.data.damping;
+        this.inputs.g = this.data.g;
         this.inputs.ox = this.data.origin.x;
         this.inputs.oy = this.data.origin.y;
         this.inputs.or = this.data.origin.radius;

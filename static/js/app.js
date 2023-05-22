@@ -1,4 +1,4 @@
-import { DoublePendulum } from "./Scripts/double_pendulum.js"
+import { DoublePendulum } from "./double_pendulum.js"
 
 const app = Vue.createApp({
     setup() {
@@ -35,7 +35,7 @@ const app = Vue.createApp({
             this.canvasColor = canvasColor;
         }
 
-        fetch("presets.json")
+        fetch("/static/presets.json")
         .then(response => response.json())
         .then(json => this.presets.public = json);
 
@@ -45,7 +45,7 @@ const app = Vue.createApp({
         this.editData = JSON.parse(JSON.stringify(DEFAULT_DP_DATA));
     },
     mounted() {
-        const s = (p) => {
+        const s = p => {
             p.setup = () => {
                 let canvas = p.createCanvas(this.canvasWidth, this.canvasHeight).canvas;
                 canvas.addEventListener('mousedown', this.onPointerDown)
@@ -64,7 +64,7 @@ const app = Vue.createApp({
                 p.translate(this.canvasWidth / 2, this.canvasHeight / 2)
                 p.scale(this.canvasZoom)
                 p.translate(-this.canvasWidth / 2 + this.cameraOffset.x, -this.canvasHeight / 2 + this.cameraOffset.y)
-                this.DPs.forEach((dp) => {
+                this.DPs.forEach(dp => {
                     dp.show(p, p.simulate);
                 })
 
@@ -84,7 +84,7 @@ const app = Vue.createApp({
                 p.scale(this.canvasZoom)
                 p.translate(-this.canvasWidth / 2 + this.cameraOffset.x, -this.canvasHeight / 2 + this.cameraOffset.y)
 
-                this.DPs.forEach((dp) => {
+                this.DPs.forEach(dp => {
                     dp.show(p, p.simulate);
                 })
             };
