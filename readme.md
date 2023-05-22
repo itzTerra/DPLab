@@ -12,28 +12,27 @@ A tool that can simulate double pendulums (and simple pendulums!) with **tons of
 
 It's primary purpose is **art** and **fun**, although the simulation is ***fairly* accurate** (computed with the Runge-Kutta method).   
 
-The input constraints are lenient, so if you feed the simulator crazy numbers, don't be too surprised to see it blow up.  
-***Tip**: Save the settings you don't want to lose as a preset before experimenting.*
+The input constraints are lenient -- if you feed the simulator crazy numbers, it ***will*** break!  
+> ***Tip**: Save the settings you don't want to lose as a preset before experimenting.*
 
 ### Features
-- Single Pendulum support (by setting 2nd bob's Mass to zero)
 - Generate as many pendulums as your computer can handle
+- Single Pendulum support (by setting 2nd bob's Mass to zero)
 - Configure the *Simulation Speed*, *Damping*, *Gravity* and *Mode* of each system
-- Change the *Position*, *Radius* and *Color* of the origin
 - Manage the *Mass*, *Angle*, *Velocity*, *Radius* and *Color* of each bob
-- Customize the *Length*, *Width* and *Color* of the rods
-- Trails with customizable *Width*, *Color* and *Length*
-- Pause button
-- Pan and zoom
-- Customizable Canvas background color
-- Fullscreen mode
-- Capture the moment with *Right-Click -> Save image as...*
+- Customize the *Length*, *Width* and *Color* of rods and trails!
+
+- Customizable Canvas with:
+  - Pause button
+  - Pan and zoom
+  - Fullscreen mode
+  - Capture the moment with *Right-Click -> Save image as...*
 
 ### Tips & Tricks
-- Change all colors of a DP at once using the square on the left of a dropdown-header 
-- Set some opacity to the Canvas background color for cool phasing effect. *(It has some side-effects - you can set it back to opaque color to get rid of them.)*
-- Use presets and saving a lot - some settings are unstable!
-- The presets use JSON, so you can create cool stuff (that would be really hard to do by hand) with basic programming. E.g. random colors or gradual lengths.
+- Change all colors of a DP at once using the square on the left of the dropdown-header 
+- Set some opacity to the Canvas background color for cool phasing effect. 
+  > *It has some side-effects - you can set it back to opaque color to get rid of them.*
+- The presets use JSON, so you can create cool stuff (that would be really hard to do by hand) with basic programming, e.g. random colors or gradual lengths.
 - You can use optimized single pendulum math by setting all *Mass*, *Bob radius*, *Rod width* and *Trail width* of Part 2 to zero.
 
 ### Made with:
