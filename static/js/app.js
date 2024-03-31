@@ -1,5 +1,7 @@
 import { DoublePendulum } from "./double_pendulum.js"
 
+const PRESETS_PUBLIC_PATH = "static/presets.json";
+
 const app = Vue.createApp({
     setup() {
         const TOOLBAR_PADDING = 10;
@@ -35,7 +37,7 @@ const app = Vue.createApp({
             this.canvasColor = canvasColor;
         }
 
-        fetch("/static/presets.json")
+        fetch(PRESETS_PUBLIC_PATH)
         .then(response => response.json())
         .then(json => this.presets.public = json);
 
@@ -55,7 +57,7 @@ const app = Vue.createApp({
                 canvas.addEventListener('mousemove', this.onPointerMove)
                 canvas.addEventListener('touchmove', (e) => this.handleTouch(e, this.onPointerMove))
                 canvas.addEventListener('wheel', (e) => this.adjustZoom(e.deltaY * 0.0005))
-                
+
                 p.frameRate(60);
                 p.simulate = true;
 
@@ -163,7 +165,7 @@ const app = Vue.createApp({
                     }
                     else if (classes.contains("editDisabled")){
                         classes.remove("editDisabled");
-                        
+
                         inputs[0].disabled = false;
 
                         inputs[1].disabled = false;
@@ -298,7 +300,7 @@ const app = Vue.createApp({
             this.editData = JSON.parse(JSON.stringify(data));
 
             let colors = [
-                this.editData.origin.color, this.editData.bob1.color, this.editData.bob2.color, 
+                this.editData.origin.color, this.editData.bob1.color, this.editData.bob2.color,
                 this.editData.bob1.lineColor, this.editData.bob2.lineColor,
                 this.editData.bob1.trailColor, this.editData.bob2.trailColor];
             $(`#editOffcanvas input[type='color']`).each(function(i){
@@ -341,7 +343,7 @@ const app = Vue.createApp({
                             val = Number(i.value);
                         }
                     }
-                    
+
                     data[i.name] = val;
                 }
             })
@@ -445,10 +447,10 @@ const app = Vue.createApp({
 
             if (elem.requestFullscreen) {
                 elem.requestFullscreen();
-            } 
+            }
             else if (elem.webkitRequestFullscreen) { /* Safari */
                 elem.webkitRequestFullscreen();
-            } 
+            }
             else if (elem.msRequestFullscreen) { /* IE11 */
                 elem.msRequestFullscreen();
             }
@@ -514,7 +516,7 @@ const app = Vue.createApp({
             if (name == ""){
                 name = $("#saveCurrentNameInput").attr("placeholder");
             }
-            
+
             this.addPreset(name, this.DPs.map((i) => i.data));
         },
         importPreset(e){
@@ -598,7 +600,7 @@ const app = Vue.createApp({
                         }
                     }
                 })
-                
+
                 this.drawOnce();
             }
         },
