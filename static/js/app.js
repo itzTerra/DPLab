@@ -416,7 +416,7 @@ const app = Vue.createApp({
         },
         windowResize() {
             if (!document.fullscreenElement) {
-                let canvasHeightDefault = 820;
+                let canvasHeightDefault = 800;
                 if (window.innerWidth >= 1400){
                     this.canvasWidthDefault = 905;
                 }
